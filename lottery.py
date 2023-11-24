@@ -1,7 +1,6 @@
 import random
 
 
-
 def roll():
 	roll1 = random.randrange(1, 30)
 	roll2 = random.randrange(1, 30)
@@ -10,11 +9,7 @@ def roll():
 	roll5 = random.randrange(1, 30)
 
 
-
-
-
-	# You can hashtag the lottery #'s out if you do not want to see them before guessing
-	print(f"\nLotto #'s: {roll1},{roll2},{roll3},{roll4},{roll5}")
+	#print(f"\nLotto #'s: {roll1},{roll2},{roll3},{roll4},{roll5}")
 	print("\nOdds of winning are 0.00000000412%")
 	print("\nGuess 5 numbers between 1-30")
 	final_roll = (f"{roll1},{roll2},{roll3},{roll4},{roll5}")
@@ -24,14 +19,12 @@ def roll():
 		print("\nYOU WON THE LOTTERY")
 
 	else:
-		print("You dont not win, the numbers were")
-		print(f"{roll1},{roll2},{roll3},{roll4},{roll5}")
-
-
-
+		print("You dont not win, try again")
+		roll()
 
 roll()
 	
+
 
 
 
