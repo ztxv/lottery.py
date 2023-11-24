@@ -13,7 +13,7 @@ def roll():
 
 
 
-
+	# You can hashtag the lottery #'s out if you do not want to see them before guessing
 	print(f"\nLotto #'s: {roll1},{roll2},{roll3},{roll4},{roll5}")
 	print("\nOdds of winning are 0.00000000412%")
 	print("\nGuess 5 numbers between 1-30")
